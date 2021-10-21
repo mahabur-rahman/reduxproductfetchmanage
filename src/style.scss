@@ -1,0 +1,54 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background: lightblue;
+}
+
+a {
+    color: #000;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+// for header 👍
+#header {
+    overflow: hidden;
+    .navbar {
+        background: #ddd;
+        a {
+            font-size: 1.5rem;
+            color: #000;
+        }
+    }
+}
+
+// product listing
+#productListing {
+    overflow: hidden;
+    padding: 70px 0;
+}
+
+.card {
+    img {
+        height: 200px;
+    }
+    height: 400px;
+    margin: 10px 0;
+}
+
+// product details
+#productDetails {
+    overflow: hidden;
+    background-color: none;
+    padding: 100px 0;
+    .desc_div {
+        background-color: transparent;
+    }
+}
